@@ -2,18 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Recipes</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <img src="./images/chef.jpg" alt="Chef" style="width: 500px;height: 360px">
-    <h3>Some of my popular recipes!</h3>
-    <ul>
-        <li><a href="./recipes/baked-beans.html">Baked Beans</a></li>
-        <li><a href="./recipes/toast.html">Toast</a></li>
-    </ul>
+    <div class="container" id="container">
+        <div class="card feature">
+            <h1 class="title">My Popular Recipes</h1>
+        </div>
+        
+        <div class="card feature">
+            <img src="./images/beans.png" alt="Red Velvet Cupcake - Photo by luisana zerpa on Unsplash" />
+            <div class="card-content">
+                <h1>Baked Beans</h1>
+                <section class="recipe-info">
+                    <ul>
+                        <li class="recipe-prep-time">
+                            <h2>Prep Time</h2>
+                            <p>Up to 24 hours</p>
+                        </li>
+                        <li>
+                            <h2>Cooking Time</h2>
+                            <p>7.5 hours</p>
+                        </li>
+                        <li>
+                            <h2>Yield</h2>
+                            <p>---</p>
+                        </li>
+                    </ul>
+                </section>
+                <a href="./recipes/baked-beans.html">View recipe</a>
+            </div>
+        </div>
+
+        <div class="card feature">
+            <img src="./images/toast.jpg" alt="Red Velvet Cupcake - Photo by luisana zerpa on Unsplash" />
+            <div class="card-content">
+                <h1>Buttered Toast</h1>
+                <section class="recipe-info">
+                    <ul>
+                        <li class="recipe-prep-time">
+                            <h2>Prep Time</h2>
+                            <p>5 mins</p>
+                        </li>
+                        <li>
+                            <h2>Cooking Time</h2>
+                            <p>5 mins</p>
+                        </li>
+                        <li>
+                            <h2>Yield</h2>
+                            <p>2 slices</p>
+                        </li>
+                    </ul>
+                </section>
+                <a href="./recipes/toast.html">View recipe</a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
